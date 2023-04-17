@@ -1,4 +1,4 @@
-# graph-apps
+# azure-apps
 
 ## Summary
 

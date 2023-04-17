@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "graph-apps-client-side-solution",
+    "name": "Azure Apps",
     "id": "2236ddb2-5c5e-4dca-992d-b772027a6d60",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "graphApps description"
+        "default": "Showing all Azure apps and able to register new app."
       },
       "longDescription": {
-        "default": "graphApps description"
+        "default": "Showing all Azure apps and able to register new app."
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -27,14 +27,14 @@
     },
     "features": [
       {
-        "title": "graph-apps Feature",
-        "description": "The feature that activates elements of the graph-apps solution.",
+        "title": "azure-apps Feature",
+        "description": "The feature that activates elements of the azure-apps solution.",
         "id": "a199d780-f3ef-41e7-b712-b50780ec8320",
         "version": "1.0.0.0"
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/graph-apps.sppkg"
+    "zippedPackage": "solution/azure-apps.sppkg"
   }
 }
