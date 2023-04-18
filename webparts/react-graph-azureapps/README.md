@@ -39,16 +39,7 @@ This sample webpart shows list of Azure apps in your tenant. A new Azure applica
 
 ## Minimal Path to awesome
 
-- Clone this repository 
-- Ensure that you are at the solution folder
-- in the command-line run:
-  - **npm install**
-  - **gulp serve**
-
-> Include any additional steps as needed.
-
-- Clone this repository (or [download this solution as a .ZIP file](https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-graph-app-secret-expiration) then unzip it)
-- From your command line, change your current directory to the directory containing this sample (`react-graph-app-secret-expiration`, located under `samples`)
+- Clone this repository
 - In the command-line run:
   - `npm install`
   - `gulp bundle`
@@ -61,31 +52,13 @@ This sample webpart shows list of Azure apps in your tenant. A new Azure applica
 
 >  This sample can also be opened with [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Visit https://aka.ms/spfx-devcontainer for further instructions.
 
-## Features
-
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
-
 ## Help
 
 We do not support samples, but we this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for community members to volunteer their time and help resolve issues.
 
 If you're having issues building the solution, please run [spfx doctor](https://pnp.github.io/cli-microsoft365/cmd/spfx/spfx-doctor/) from within the solution folder to diagnose incompatibility issues with your environment.
 
-If you encounter any issues while using this sample, create a new issue.
 
-For questions regarding this sample, create a new question.
-
-Finally, if you have an idea for improvement, make a suggestion.
 
 ## Disclaimer
 
