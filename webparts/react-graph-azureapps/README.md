@@ -4,7 +4,8 @@
 
 This sample webpart shows list of Azure apps in your tenant. A new Azure application can also be registered and can be edited using this webpart.
 
-[picture of the solution in action, if possible]
+![Animated Sample](./assets/Add New App.mp4)
+![Animated Sample](./assets/Edit App.mp4)
 
 ## Compatibility
 
