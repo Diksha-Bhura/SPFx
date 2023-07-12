@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vault-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vault/VaultWebPart.js",
+          "manifest": "./src/webparts/vault/VaultWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VaultWebPartStrings": "lib/webparts/vault/loc/{locale}.js"
+  }
+}
