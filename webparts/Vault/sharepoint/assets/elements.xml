@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
 
-    <Field ID="{060E50AC-E9C1-4D3C-B1F9-DE0BCAC300F6}"
-            Name="SPFxAmount"
-            DisplayName="Amount"
-            Type="Currency"
-            Decimals="2"
-            Min="0"
-            Required="FALSE"
-            Group="Vault" />
-
     <Field ID="{453bdd90-4fb7-49ae-be16-13ba4a7164b6}"
             Name="VaultType"
             DisplayName="Vault Type"

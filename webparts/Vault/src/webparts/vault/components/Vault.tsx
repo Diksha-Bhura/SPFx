@@ -3,14 +3,29 @@ import * as React from 'react';
 import { IVaultProps } from './IVaultProps';
 //import { escape } from '@microsoft/sp-lodash-subset';
 import { ICommandBarItemProps, CommandBar, IContextualMenuItem } from 'office-ui-fabric-react';
+import { SPHelpers } from '../../../helpers/SPHelper';
 
 export default class Vault extends React.Component<IVaultProps, {}> {
+  componentDidMount(): void {
+    try
+    {
+      SPHelpers.GetVault( this.props.context).then((data) => {
+        console.log(data);
+      });
+      
+    }
+    catch(error)
+    {
+      console.log("Error while getting list data.");
+    }
+  }
+  
   public render(): React.ReactElement<IVaultProps> {
     const _items: ICommandBarItemProps[] = [
       {
         key: 'newItem',
         text: 'New',
-        cacheKey: 'myCacheKey', // changing this key will invalidate this item's cache
+        cacheKey: 'myCacheKey',
         iconProps: { iconName: 'Add' },
         subMenuProps: {
           items: [
@@ -31,12 +46,12 @@ export default class Vault extends React.Component<IVaultProps, {}> {
       }]
 
     return (
-      <div>
+      <>
         <CommandBar
         items={_items}
         ariaLabel="Inbox actions"
       />
-      </div>
+      </>
       
     );
   }
@@ -46,7 +61,7 @@ export default class Vault extends React.Component<IVaultProps, {}> {
     console.log("test");
     if(item.key == "record")
     {
-      
+
     }
     else
     {
