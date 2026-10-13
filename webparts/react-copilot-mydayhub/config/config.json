@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-day-hub-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myDayHub/MyDayHubWebPart.js",
+          "manifest": "./src/webparts/myDayHub/MyDayHubWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyDayHubWebPartStrings": "lib/webparts/myDayHub/loc/{locale}.js"
+  }
+}

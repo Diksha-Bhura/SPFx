@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.15.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "react-copilot-mydayhub",
+    "libraryId": "78b0a81b-8e9a-4754-86ef-908b6979c54f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-copilot-mydayhub",
+    "solutionShortDescription": "react-copilot-mydayhub description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

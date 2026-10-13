@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-copilot-mydayhub-client-side-solution",
+    "id": "78b0a81b-8e9a-4754-86ef-908b6979c54f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-copilot-mydayhub description"
+      },
+      "longDescription": {
+        "default": "react-copilot-mydayhub description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-copilot-mydayhub Feature",
+        "description": "The feature that activates elements of the react-copilot-mydayhub solution.",
+        "id": "408970d9-0b17-4d2e-8e96-ff837cf1606d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-copilot-mydayhub.sppkg"
+  }
+}
